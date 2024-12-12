@@ -3210,111 +3210,84 @@
     <div class="modal__overlay">
         <div class="modal__content animate__animated animate__slideInLeft">
             <div class="mobile-menu container">
-                <button class="mobile-menu__button mobile-menu__catalog" type="button"
+
+                <button style="margin-bottom: 32px;" class="mobile-menu__button mobile-menu__catalog" type="button"
                         data-modal-show="#modal-header-catalog">
                     Каталог 📕
-                    <svg class=" icon icon_next">
-                        <use xlink:href="images/sprite.svg#next"></use>
-                    </svg>
-                </button>
-                <span class="mobile-menu__button header__menu-link"
-                      onclick="ym(window.isteels.ym_id, 'reachGoal', 'click_fast_order');"
-                      data-call-modal="order-click">📞 Заказ в 1 клик</span>
-                <ol class="mobile-menu__menu">
-                    <li class="mobile-menu__menu-item"></li>
-                    <li class="mobile-menu__menu-item">
-                        <a class="header__menu-link" href="/services/">
-                            Услуги
-                        </a>
-                    </li>
-                    <li class="mobile-menu__menu-item">
-                        <a class="header__menu-link" href="/spec/">Спецпредложения</a>
-                    </li>
-                    <li class="mobile-menu__menu-item">
-                        <div class="header__menu-link" data-modal-show="#modal-buyers-catalog">
-                            Покупателям
-                            <svg class=" icon icon_next">
-                                <use xlink:href="images/sprite.svg#next"></use>
-                            </svg>
-                        </div>
-                    </li>
-                    <li class="mobile-menu__menu-item"></li>
-                    <li class="mobile-menu__menu-item">
-                        <a class="header__menu-link" href="/contacts/">
-                            Контакты
-                        </a>
-                    </li>
-                    <li class="mobile-menu__menu-item">
-                        <div class="header__menu-link" data-modal-show="#modal-company-catalog">
-                            О компании
-                            <svg class=" icon icon_next">
-                                <use xlink:href="images/sprite.svg#next"></use>
-                            </svg>
-                        </div>
-                    </li>
-                    <li class="mobile-menu__menu-item"></li>
-                    <li class="mobile-menu__menu-item">
-                        <a class="header__menu-link" href="/careers/">Вакансии</a>
-                    </li>
-                </ol>
-                <button class="mobile-menu__city link" data-modal-show="#modal-choice-city">
-                    Астана
-                    <svg class="header__city-icon icon icon_arrow-down">
-                        <use xlink:href="images/sprite.svg#arrow-down"></use>
-                    </svg>
-                    <span class="link__icon">
-                        <svg class=" icon icon_mark">
-                            <use xlink:href="images/sprite.svg#mark"></use>
-                        </svg>
-                    </span>
-                </button>
-
-                <button class="mobile-menu__city link mobile-menu-language" type="button">
-                    <div class="mobile-language-title">🇷🇺 Русский</div>
-                    <div class="drop-menu__content header__menu-sub">
-                        <span class="header__menu-link" data-google-lang="ru"
-                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_ru');">Русский</span>
-                        <span class="header__menu-link" data-google-lang="en"
-                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_en');">Английский</span>
-                        <span class="header__menu-link" data-google-lang="kk"
-                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_kk');">Казахский</span>
-                        <span class="header__menu-link" data-google-lang="uz"
-                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_uz');">Узбекский</span>
-                    </div>
                 </button>
 
 
-                <a class="mobile-menu__email link mgo-email" href="mailto:zakaz@steelfed.kz">
-                    <span class="mgo-email">zakaz@steelfed.kz</span>
-                    <span class="link__icon">
-                        <svg class=" icon icon_email">
-                            <use xlink:href="images/sprite.svg#email"></use>
-                        </svg>
-                    </span>
-                </a>
 
-                <a class="mobile-menu__phone link" href="https://t.me/tab1k.k">Telegram
-                    <span class="link__icon">
-                            <svg class="icon icon_logos_telegram">
-                              <use xlink:href="images/sprite.svg#logos_telegram"></use>
-                            </svg>
-                        </span>
-                </a>
-
-                <a class="mobile-menu__phone link" href="https://wa.me/77077772817">WhatsApp
-                    <span class="link__icon">
-                            <svg class="icon icon_logos_whatsapp">
-                              <use xlink:href="images/sprite.svg#logos_whatsapp"></use>
-                            </svg>
-                        </span>
-                </a>
-
-                <button class="mobile-menu__callback" data-modal-show="#modal-callback">
-                    Обратный звонок
-                    <svg class=" icon icon_callback">
-                        <use xlink:href="images/sprite.svg#callback"></use>
-                    </svg>
+                <button class="mobile-menu__button mobile-menu__catalog" type="button"
+                        data-modal-show="#modal-header-catalog">
+                    Главная
                 </button>
+
+                <button class="mobile-menu__button mobile-menu__catalog" type="button"
+                        data-modal-show="#modal-header-catalog" style="margin-bottom: 12px;">
+                    Статьи
+                </button>
+                <button class="mobile-menu__button mobile-menu__catalog" type="button"
+                        data-modal-show="#modal-header-catalog">
+                    Покупателям
+                </button>
+                <button class="mobile-menu__button mobile-menu__catalog" type="button"
+                        data-modal-show="#modal-header-catalog">
+                    Контакты
+                </button>
+
+                <span class="mobile-menu__button header__menu-link" style="margin-top: 32px;">📞 Заказ в 1 клик</span>
+
+<!--                <button class="mobile-menu__city link" data-modal-show="#modal-choice-city">-->
+<!--                    📍 Астана-->
+<!--                </button>-->
+
+<!--                <button class="mobile-menu__city link mobile-menu-language" type="button">-->
+<!--                    <div class="mobile-language-title">🇷🇺 Русский</div>-->
+<!--                    <div class="drop-menu__content header__menu-sub">-->
+<!--                        <span class="header__menu-link" data-google-lang="ru"-->
+<!--                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_ru');">Русский</span>-->
+<!--                        <span class="header__menu-link" data-google-lang="en"-->
+<!--                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_en');">Английский</span>-->
+<!--                        <span class="header__menu-link" data-google-lang="kk"-->
+<!--                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_kk');">Казахский</span>-->
+<!--                        <span class="header__menu-link" data-google-lang="uz"-->
+<!--                              onclick="ym(window.isteels.ym_id, 'reachGoal', 'kz_uz');">Узбекский</span>-->
+<!--                    </div>-->
+<!--                </button>-->
+
+
+<!--                <a class="mobile-menu__email link mgo-email" href="mailto:zakaz@steelfed.kz">-->
+<!--                    <span class="mgo-email">zakaz@steelfed.kz</span>-->
+<!--                    <span class="link__icon">-->
+<!--                        <svg class=" icon icon_email">-->
+<!--                            <use xlink:href="images/sprite.svg#email"></use>-->
+<!--                        </svg>-->
+<!--                    </span>-->
+<!--                </a>-->
+
+<!--                <a class="mobile-menu__phone link" href="https://t.me/tab1k.k">Telegram-->
+<!--                    <span class="link__icon">-->
+<!--                            <svg class="icon icon_logos_telegram">-->
+<!--                              <use xlink:href="images/sprite.svg#logos_telegram"></use>-->
+<!--                            </svg>-->
+<!--                        </span>-->
+<!--                </a>-->
+
+<!--                <a class="mobile-menu__phone link" href="https://wa.me/77077772817">WhatsApp-->
+<!--                    <span class="link__icon">-->
+<!--                            <svg class="icon icon_logos_whatsapp">-->
+<!--                              <use xlink:href="images/sprite.svg#logos_whatsapp"></use>-->
+<!--                            </svg>-->
+<!--                        </span>-->
+<!--                </a>-->
+
+<!--                <button class="mobile-menu__callback" data-modal-show="#modal-callback">-->
+<!--                    Обратный звонок-->
+<!--                    <svg class=" icon icon_callback">-->
+<!--                        <use xlink:href="images/sprite.svg#callback"></use>-->
+<!--                    </svg>-->
+<!--                </button>-->
             </div>
         </div>
     </div>
